@@ -1,0 +1,200 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 12/2/23 11:12 PM
+Description: Watching Server
+
+java.lang.Error
+	at java.util.concurrent.locks.ReentrantReadWriteLock$NonfairSync.readerShouldBlock(ReentrantReadWriteLock.java:682)
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryAcquireShared(ReentrantReadWriteLock.java:470)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireShared(AbstractQueuedSynchronizer.java:1282)
+	at java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.lock(ReentrantReadWriteLock.java:727)
+	at na.c(SourceFile:99)
+	at na.a(SourceFile:116)
+	at ve.k(SourceFile:1901)
+	at ve.aU(SourceFile:1839)
+	at ve.a(SourceFile:800)
+	at vn.a(SourceFile:1621)
+	at vn.n(SourceFile:1916)
+	at vo.n(SourceFile:501)
+	at adc.n(SourceFile:41)
+	at acn.n(SourceFile:139)
+	at vn.B_(SourceFile:1742)
+	at vo.B_(SourceFile:281)
+	at adc.B_(SourceFile:46)
+	at ams.a(SourceFile:1523)
+	at om.a(SourceFile:714)
+	at ams.h(SourceFile:1499)
+	at ams.k(SourceFile:1382)
+	at om.k(SourceFile:547)
+	at net.minecraft.server.MinecraftServer.D(SourceFile:632)
+	at nx.D(SourceFile:343)
+	at net.minecraft.server.MinecraftServer.C(SourceFile:560)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:464)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.util.concurrent.locks.ReentrantReadWriteLock$NonfairSync.readerShouldBlock(ReentrantReadWriteLock.java:682)
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryAcquireShared(ReentrantReadWriteLock.java:470)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireShared(AbstractQueuedSynchronizer.java:1282)
+	at java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.lock(ReentrantReadWriteLock.java:727)
+	at na.c(SourceFile:99)
+	at na.a(SourceFile:116)
+	at ve.k(SourceFile:1901)
+	at ve.aU(SourceFile:1839)
+	at ve.a(SourceFile:800)
+	at vn.a(SourceFile:1621)
+	at vn.n(SourceFile:1916)
+	at vo.n(SourceFile:501)
+	at adc.n(SourceFile:41)
+	at acn.n(SourceFile:139)
+	at vn.B_(SourceFile:1742)
+	at vo.B_(SourceFile:281)
+	at adc.B_(SourceFile:46)
+	at ams.a(SourceFile:1523)
+	at om.a(SourceFile:714)
+	at ams.h(SourceFile:1499)
+	at ams.k(SourceFile:1382)
+	at om.k(SourceFile:547)
+	at net.minecraft.server.MinecraftServer.D(SourceFile:632)
+	at nx.D(SourceFile:343)
+	at net.minecraft.server.MinecraftServer.C(SourceFile:560)
+
+-- Thread Dump --
+Details:
+	Threads: "File IO Thread" Id=24 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at bgv.c(SourceFile:51)
+	at bgv.run(SourceFile:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"threadDeathWatcher-2-1" Id=20 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at io.netty.util.ThreadDeathWatcher$Watcher.run(ThreadDeathWatcher.java:152)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Server IO #1" Id=19 RUNNABLE
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@8bf40f
+	-  locked java.util.Collections$UnmodifiableSet@4c14ee
+	-  locked sun.nio.ch.EPollSelectorImpl@739f7f
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:388)
+	...
+
+
+"Server Watchdog" Id=18 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:496)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:484)
+	at ny.run(SourceFile:43)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Server IO #0" Id=17 RUNNABLE (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@1711ed5
+	-  locked java.util.Collections$UnmodifiableSet@f1be38
+	-  locked sun.nio.ch.EPollSelectorImpl@23ac
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:388)
+	...
+
+
+"DestroyJavaVM" Id=16 RUNNABLE
+
+
+"Server console handler" Id=15 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	-  locked java.io.BufferedInputStream@6addf4
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	-  locked java.io.InputStreamReader@15ee19a
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	...
+
+
+"Server thread" Id=13 RUNNABLE
+	at java.util.concurrent.locks.ReentrantReadWriteLock$NonfairSync.readerShouldBlock(ReentrantReadWriteLock.java:682)
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryAcquireShared(ReentrantReadWriteLock.java:470)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireShared(AbstractQueuedSynchronizer.java:1282)
+	at java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.lock(ReentrantReadWriteLock.java:727)
+	at na.c(SourceFile:99)
+	at na.a(SourceFile:116)
+	at ve.k(SourceFile:1901)
+	at ve.aU(SourceFile:1839)
+	...
+
+
+"Server Infinisleeper" Id=12 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at nx$1.run(SourceFile:81)
+
+
+"Snooper Timer" Id=11 TIMED_WAITING on java.util.TaskQueue@4384b7
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@4384b7
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=5 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@1d5c290
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1d5c290
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@16e33a3
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@16e33a3
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at ny.run(SourceFile:59)
+	at java.lang.Thread.run(Thread.java:750)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12
+	Operating System: Linux (arm) version 4.19.66-v7+
+	Java Version: 1.8.0_332, Raspbian
+	Java VM Version: OpenJDK Client VM (mixed mode), Raspbian
+	Memory: 891556432 bytes (850 MB) / 1046937600 bytes (998 MB) up to 1046937600 bytes (998 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [oo['Pasta_Shock'/344, l='world', x=-163.73, y=67.00, z=218.32]]
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

@@ -1,0 +1,178 @@
+---- Minecraft Crash Report ----
+// Would you like a cupcake?
+
+Time: 12/2/23 10:48 PM
+Description: Watching Server
+
+java.lang.Error
+	at qu.a(SourceFile:41)
+	at axn.a(SourceFile:82)
+	at axn.a(SourceFile:78)
+	at axv.a(SourceFile:29)
+	at axu.a(SourceFile:387)
+	at axu.a(SourceFile:368)
+	at axu.e(SourceFile:1088)
+	at axu.o(SourceFile:1013)
+	at axu.b(SourceFile:842)
+	at om.j(SourceFile:378)
+	at om.d(SourceFile:222)
+	at net.minecraft.server.MinecraftServer.D(SourceFile:624)
+	at nx.D(SourceFile:343)
+	at net.minecraft.server.MinecraftServer.C(SourceFile:560)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:464)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at qu.a(SourceFile:41)
+	at axn.a(SourceFile:82)
+	at axn.a(SourceFile:78)
+	at axv.a(SourceFile:29)
+	at axu.a(SourceFile:387)
+	at axu.a(SourceFile:368)
+	at axu.e(SourceFile:1088)
+	at axu.o(SourceFile:1013)
+	at axu.b(SourceFile:842)
+	at om.j(SourceFile:378)
+	at om.d(SourceFile:222)
+	at net.minecraft.server.MinecraftServer.D(SourceFile:624)
+	at nx.D(SourceFile:343)
+	at net.minecraft.server.MinecraftServer.C(SourceFile:560)
+
+-- Thread Dump --
+Details:
+	Threads: "threadDeathWatcher-2-1" Id=20 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at io.netty.util.ThreadDeathWatcher$Watcher.run(ThreadDeathWatcher.java:152)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Server IO #1" Id=19 RUNNABLE
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@1c379bc
+	-  locked java.util.Collections$UnmodifiableSet@10497b4
+	-  locked sun.nio.ch.EPollSelectorImpl@13b12cc
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:388)
+	...
+
+
+"File IO Thread" Id=18 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at bgv.c(SourceFile:51)
+	at bgv.run(SourceFile:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Server Watchdog" Id=17 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:496)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:484)
+	at ny.run(SourceFile:43)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+"Netty Server IO #0" Id=16 RUNNABLE (in native)
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@399d8f
+	-  locked java.util.Collections$UnmodifiableSet@af032d
+	-  locked sun.nio.ch.EPollSelectorImpl@13f973b
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:388)
+	...
+
+
+"DestroyJavaVM" Id=15 RUNNABLE
+
+
+"Server console handler" Id=14 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	-  locked java.io.BufferedInputStream@435722
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	-  locked java.io.InputStreamReader@1662c0
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	...
+
+
+"Server thread" Id=12 RUNNABLE
+	at qu.a(SourceFile:41)
+	at axn.a(SourceFile:82)
+	at axn.a(SourceFile:78)
+	at axv.a(SourceFile:29)
+	at axu.a(SourceFile:387)
+	at axu.a(SourceFile:368)
+	at axu.e(SourceFile:1088)
+	at axu.o(SourceFile:1013)
+	...
+
+
+"Server Infinisleeper" Id=11 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at nx$1.run(SourceFile:81)
+
+
+"Snooper Timer" Id=10 TIMED_WAITING on java.util.TaskQueue@caa04
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@caa04
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@18b6371
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@18b6371
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@147de25
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@147de25
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at ny.run(SourceFile:59)
+	at java.lang.Thread.run(Thread.java:750)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12
+	Operating System: Linux (arm) version 4.19.66-v7+
+	Java Version: 1.8.0_332, Raspbian
+	Java VM Version: OpenJDK Client VM (mixed mode), Raspbian
+	Memory: 937351912 bytes (893 MB) / 1419116544 bytes (1353 MB) up to 1419116544 bytes (1353 MB)
+	JVM Flags: 2 total; -Xmx1400M -Xms1400M
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [oo['Pasta_Shock'/329, l='world', x=-165.14, y=60.00, z=219.83]]
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
