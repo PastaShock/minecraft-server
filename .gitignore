@@ -3,11 +3,13 @@
 !crash-reports/**
 !logs/**
 !world/**
+!add-to-log.sh
 !banned-ips.json
 !banned-players.json
 !eula.txt
 !mcgang.sh
 !minecraft_server.1.12.jar
+!night-server-push.sh
 !ops.json
 !PiMC_tmux.sh
 !server.properties
