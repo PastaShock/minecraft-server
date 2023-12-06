@@ -2,6 +2,7 @@
 ME=$(basename "$0")
 DATE=$(date)
 STRING="Nightly automated server backup of player and world data - $DATE"
+git pull
 git add -A
 git commit -m "$STRING"
 git push origin main
