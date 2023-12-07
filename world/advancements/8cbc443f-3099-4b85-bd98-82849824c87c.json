@@ -380,7 +380,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2023-12-04 14:30:40 -0800",
-      "cooked_cod": "2023-12-07 13:12:25 -0800"
+      "cooked_cod": "2023-12-07 13:12:25 -0800",
+      "raw_salmon": "2023-12-07 14:03:02 -0800"
     },
     "done": false
   },
@@ -855,6 +856,7 @@
       "skeleton": "2023-12-07 12:33:51 -0800",
       "zombie": "2023-12-04 14:20:44 -0800",
       "silverfish": "2023-12-04 15:13:07 -0800",
+      "witch": "2023-12-07 14:04:55 -0800",
       "spider": "2023-12-04 14:49:30 -0800",
       "creeper": "2023-12-04 14:49:52 -0800"
     },
@@ -896,15 +898,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2023-12-07 13:11:58 -0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2023-12-07 13:11:57 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-12-07 13:11:58 -0800"
     },
     "done": true
   },
