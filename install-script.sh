@@ -17,5 +17,5 @@ echo "repo is located in: $REPODIR"
 echo "setting repo location to .bashrc:"
 echo "MCSERV=$REPODIR" >> ~/.bashrc
 MCSERV=$REPODIR
-echo "alias pimc=\"sh $MCSERV/PiMC_tmux.sh\"" >> ~/.bashrc
+echo "alias pimc='sh \$MCSERV/PiMC_tmux.sh'" >> ~/.bashrc
 echo "" 
