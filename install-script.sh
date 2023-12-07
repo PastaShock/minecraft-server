@@ -15,7 +15,7 @@ DIR=$(readlink -f $0)
 REPODIR=`dirname $DIR`
 echo "repo is located in: $REPODIR"
 echo "setting repo location to .bashrc:"
-echo "MCSERV=$REPODIR" #>> ~/.bashrc
+echo "MCSERV=$REPODIR" >> ~/.bashrc
 MCSERV=$REPODIR
-echo "alias pimc=\"sh $MCSERV/PiMC_tmux.sh\""
+echo "alias pimc=\"sh $MCSERV/PiMC_tmux.sh\"" >> ~/.bashrc
 echo "" 
