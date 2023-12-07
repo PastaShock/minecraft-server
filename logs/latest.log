@@ -1,45 +1,117 @@
-[17:29:01] [Server thread/INFO]: Starting minecraft server version 1.12
-[17:29:01] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[17:29:01] [Server thread/INFO]: Loading properties
-[17:29:01] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[17:29:01] [Server thread/INFO]: Default game type: SURVIVAL
-[17:29:01] [Server thread/INFO]: Generating keypair
-[17:29:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:29:03] [Server thread/INFO]: Using default channel type
-[17:29:03] [Server thread/INFO]: Preparing level "world"
-[17:29:05] [Server thread/INFO]: Loaded 488 advancements
-[17:29:05] [Server thread/INFO]: Preparing start region for level 0
-[17:29:08] [Server thread/INFO]: Preparing spawn area: 0%
-[17:29:09] [Server thread/INFO]: Preparing spawn area: 5%
-[17:29:10] [Server thread/INFO]: Preparing spawn area: 11%
-[17:29:11] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
-[17:29:11] [Server thread/INFO]: Preparing spawn area: 17%
-[17:29:12] [Server thread/INFO]: Preparing spawn area: 23%
-[17:29:13] [Server thread/INFO]: Preparing spawn area: 29%
-[17:29:14] [Server thread/INFO]: Preparing spawn area: 36%
-[17:29:15] [Server thread/INFO]: Preparing spawn area: 43%
-[17:29:16] [Server thread/INFO]: Preparing spawn area: 50%
-[17:29:17] [Server thread/INFO]: Preparing spawn area: 56%
-[17:29:18] [Server thread/INFO]: Preparing spawn area: 63%
-[17:29:19] [Server thread/INFO]: Preparing spawn area: 71%
-[17:29:21] [Server thread/INFO]: Preparing spawn area: 75%
-[17:29:22] [Server thread/INFO]: Preparing spawn area: 83%
-[17:29:22] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[17:29:22] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[17:29:23] [Server thread/INFO]: Preparing spawn area: 90%
-[17:29:24] [Server thread/INFO]: Preparing spawn area: 98%
-[17:29:24] [Server thread/INFO]: Done (20.777s)! For help, type "help" or "?"
-[17:29:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2245ms behind, skipping 44 tick(s)
-[17:30:10] [User Authenticator #1/INFO]: UUID of player Pasta_Shock is 8cbc443f-3099-4b85-bd98-82849824c87c
-[17:30:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2637ms behind, skipping 52 tick(s)
-[17:30:14] [Server thread/INFO]: Pasta_Shock[/192.168.2.6:53763] logged in with entity id 352 at (-317.30000001192093, 69.0, 255.1103618975615)
-[17:30:14] [Server thread/INFO]: Pasta_Shock joined the game
-[17:30:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 14590ms behind, skipping 291 tick(s)
-[17:30:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2725ms behind, skipping 54 tick(s)
-[17:31:18] [Server thread/WARN]: Pasta_Shock moved too quickly! 9.953660531853075,1.0,0.8503708950806583
-[17:31:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 11647ms behind, skipping 232 tick(s)
-[17:31:25] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[17:31:26] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[17:31:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6012ms behind, skipping 120 tick(s)
-[17:31:47] [Server thread/INFO]: Pasta_Shock lost connection: Disconnected
-[17:31:47] [Server thread/INFO]: Pasta_Shock left the game
+[01:07:27] [User Authenticator #2/INFO]: Disconnecting /34.171.35.238:33592: Failed to verify username!
+[01:07:27] [User Authenticator #2/ERROR]: Username 'MojangEULAVer' tried to join with an invalid session
+[01:07:27] [Server thread/INFO]: /34.171.35.238:33592 lost connection: Failed to verify username!
+[12:30:56] [User Authenticator #3/INFO]: UUID of player Pasta_Shock is 8cbc443f-3099-4b85-bd98-82849824c87c
+[12:30:57] [Server thread/INFO]: Pasta_Shock[/73.169.215.156:62949] logged in with entity id 3017 at (-160.90565719011082, 63.0, 227.22324299783332)
+[12:30:57] [Server thread/INFO]: Pasta_Shock joined the game
+[12:30:59] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
+[12:31:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5644ms behind, skipping 112 tick(s)
+[12:31:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2541ms behind, skipping 50 tick(s)
+[12:32:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2928ms behind, skipping 58 tick(s)
+[12:32:43] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[12:32:45] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
+[12:32:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2471ms behind, skipping 49 tick(s)
+[12:33:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8052ms behind, skipping 161 tick(s)
+[12:33:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7052ms behind, skipping 141 tick(s)
+[12:33:34] [Server thread/INFO]: Pasta_Shock was shot by Skeleton
+[12:33:37] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[12:33:37] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
+[12:33:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8153ms behind, skipping 163 tick(s)
+[12:33:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2883ms behind, skipping 57 tick(s)
+[12:34:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6089ms behind, skipping 121 tick(s)
+[12:34:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3113ms behind, skipping 62 tick(s)
+[12:34:41] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
+[12:34:43] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[12:34:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9404ms behind, skipping 188 tick(s)
+[12:35:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5900ms behind, skipping 118 tick(s)
+[12:35:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3708ms behind, skipping 74 tick(s)
+[12:36:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2964ms behind, skipping 59 tick(s)
+[12:37:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2749ms behind, skipping 54 tick(s)
+[12:38:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3200ms behind, skipping 64 tick(s)
+[12:38:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2968ms behind, skipping 59 tick(s)
+[12:39:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3589ms behind, skipping 71 tick(s)
+[12:40:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2157ms behind, skipping 43 tick(s)
+[12:40:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4840ms behind, skipping 96 tick(s)
+[12:40:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2030ms behind, skipping 40 tick(s)
+[12:41:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2031ms behind, skipping 40 tick(s)
+[12:41:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3964ms behind, skipping 79 tick(s)
+[12:42:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3090ms behind, skipping 61 tick(s)
+[12:42:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2109ms behind, skipping 42 tick(s)
+[12:42:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3685ms behind, skipping 73 tick(s)
+[12:43:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2988ms behind, skipping 59 tick(s)
+[12:44:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2246ms behind, skipping 44 tick(s)
+[12:44:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2205ms behind, skipping 44 tick(s)
+[12:44:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3380ms behind, skipping 67 tick(s)
+[12:45:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4411ms behind, skipping 88 tick(s)
+[12:45:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2157ms behind, skipping 43 tick(s)
+[12:45:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2236ms behind, skipping 44 tick(s)
+[12:45:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3989ms behind, skipping 79 tick(s)
+[12:46:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3087ms behind, skipping 61 tick(s)
+[12:47:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2764ms behind, skipping 55 tick(s)
+[12:48:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2796ms behind, skipping 55 tick(s)
+[12:48:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2230ms behind, skipping 44 tick(s)
+[12:49:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3121ms behind, skipping 62 tick(s)
+[12:49:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3675ms behind, skipping 73 tick(s)
+[12:50:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3982ms behind, skipping 79 tick(s)
+[12:51:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2094ms behind, skipping 41 tick(s)
+[12:51:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4149ms behind, skipping 82 tick(s)
+[12:51:32] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[12:51:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3247ms behind, skipping 64 tick(s)
+[12:52:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3413ms behind, skipping 68 tick(s)
+[12:52:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3125ms behind, skipping 62 tick(s)
+[12:52:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2328ms behind, skipping 46 tick(s)
+[12:53:00] [Server thread/WARN]: Pasta_Shock moved too quickly! -9.925144631102086,-0.7663679939575232,1.1232608671529647
+[12:53:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6984ms behind, skipping 139 tick(s)
+[12:53:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2751ms behind, skipping 55 tick(s)
+[12:53:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2661ms behind, skipping 53 tick(s)
+[12:53:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5019ms behind, skipping 100 tick(s)
+[12:54:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2107ms behind, skipping 42 tick(s)
+[12:54:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4230ms behind, skipping 84 tick(s)
+[12:55:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3378ms behind, skipping 67 tick(s)
+[12:56:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4624ms behind, skipping 92 tick(s)
+[12:56:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3701ms behind, skipping 74 tick(s)
+[12:57:15] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2895ms behind, skipping 57 tick(s)
+[12:57:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2551ms behind, skipping 51 tick(s)
+[12:57:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2886ms behind, skipping 57 tick(s)
+[12:58:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2921ms behind, skipping 58 tick(s)
+[12:59:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3633ms behind, skipping 72 tick(s)
+[13:00:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3231ms behind, skipping 64 tick(s)
+[13:00:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3020ms behind, skipping 60 tick(s)
+[13:01:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2378ms behind, skipping 47 tick(s)
+[13:01:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3429ms behind, skipping 68 tick(s)
+[13:01:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2692ms behind, skipping 53 tick(s)
+[13:02:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2838ms behind, skipping 56 tick(s)
+[13:03:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3243ms behind, skipping 64 tick(s)
+[13:03:47] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[13:03:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2615ms behind, skipping 52 tick(s)
+[13:04:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3218ms behind, skipping 64 tick(s)
+[13:04:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2531ms behind, skipping 50 tick(s)
+[13:04:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2752ms behind, skipping 55 tick(s)
+[13:05:29] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3106ms behind, skipping 62 tick(s)
+[13:06:15] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2843ms behind, skipping 56 tick(s)
+[13:06:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2416ms behind, skipping 48 tick(s)
+[13:07:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2627ms behind, skipping 52 tick(s)
+[13:07:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2597ms behind, skipping 51 tick(s)
+[13:08:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3154ms behind, skipping 63 tick(s)
+[13:08:37] [Server thread/INFO]: Pasta_Shock has made the advancement [Acquire Hardware]
+[13:09:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2981ms behind, skipping 59 tick(s)
+[13:09:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2468ms behind, skipping 49 tick(s)
+[13:10:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2873ms behind, skipping 57 tick(s)
+[13:10:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2622ms behind, skipping 52 tick(s)
+[13:11:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2785ms behind, skipping 55 tick(s)
+[13:11:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2321ms behind, skipping 46 tick(s)
+[13:12:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3811ms behind, skipping 76 tick(s)
+[13:12:53] [Server thread/INFO]: Pasta_Shock has made the advancement [Isn't It Iron Pick]
+[13:13:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2741ms behind, skipping 54 tick(s)
+[13:13:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2033ms behind, skipping 40 tick(s)
+[13:14:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3639ms behind, skipping 72 tick(s)
+[13:14:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2967ms behind, skipping 59 tick(s)
+[13:15:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3017ms behind, skipping 60 tick(s)
+[13:15:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2505ms behind, skipping 50 tick(s)
+[13:16:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3040ms behind, skipping 60 tick(s)
+[13:16:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4091ms behind, skipping 81 tick(s)
+[13:17:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2987ms behind, skipping 59 tick(s)
+[13:17:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3008ms behind, skipping 60 tick(s)
+[13:18:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2133ms behind, skipping 42 tick(s)
+[13:18:29] [Server thread/INFO]: Pasta_Shock lost connection: Disconnected
+[13:18:29] [Server thread/INFO]: Pasta_Shock left the game
