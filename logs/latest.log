@@ -1,30 +1,69 @@
-[23:05:58] [Server thread/INFO]: Starting minecraft server version 1.12
-[23:05:58] [Server thread/INFO]: Loading properties
-[23:05:58] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[23:05:58] [Server thread/INFO]: Default game type: SURVIVAL
-[23:05:58] [Server thread/INFO]: Generating keypair
-[23:05:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:05:58] [Server thread/INFO]: Using epoll channel type
-[23:05:58] [Server thread/INFO]: Preparing level "world"
-[23:05:59] [Server thread/INFO]: Loaded 488 advancements
-[23:05:59] [Server thread/INFO]: Preparing start region for level 0
-[23:05:59] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
-[23:06:00] [Server thread/INFO]: Preparing spawn area: 25%
-[23:06:00] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[23:06:00] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[23:06:01] [Server thread/INFO]: Done (2.342s)! For help, type "help" or "?"
-[23:06:16] [User Authenticator #1/INFO]: UUID of player Pasta_Shock is 8cbc443f-3099-4b85-bd98-82849824c87c
-[23:06:16] [Server thread/INFO]: Pasta_Shock[/73.169.215.156:55923] logged in with entity id 348 at (-164.99415153806302, 63.0, 222.39485397393628)
-[23:06:16] [Server thread/INFO]: Pasta_Shock joined the game
-[23:07:48] [Server thread/INFO]: Pasta_Shock lost connection: Disconnected
-[23:07:48] [Server thread/INFO]: Pasta_Shock left the game
-[23:07:54] [User Authenticator #2/INFO]: UUID of player Pasta_Shock is 8cbc443f-3099-4b85-bd98-82849824c87c
-[23:07:54] [Server thread/INFO]: Pasta_Shock[/73.169.215.156:56126] logged in with entity id 1175 at (-162.26219520122172, 63.0, 224.09549417188413)
-[23:07:54] [Server thread/INFO]: Pasta_Shock joined the game
-[23:07:55] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[23:16:29] [Server thread/INFO]: Pasta_Shock lost connection: Disconnected
-[23:16:29] [Server thread/INFO]: Pasta_Shock left the game
-[23:16:35] [Server Shutdown Thread/INFO]: Stopping server
-[23:16:35] [Server Shutdown Thread/INFO]: Saving players
-[23:16:35] [Server Shutdown Thread/INFO]: Saving worlds
-[23:16:35] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
+[15:46:23] [Server thread/INFO]: Starting minecraft server version 1.12
+[15:46:23] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[15:46:23] [Server thread/INFO]: Loading properties
+[15:46:23] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[15:46:23] [Server thread/INFO]: Default game type: SURVIVAL
+[15:46:23] [Server thread/INFO]: Generating keypair
+[15:46:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:46:24] [Server thread/INFO]: Using default channel type
+[15:46:24] [Server thread/INFO]: Preparing level "world"
+[15:46:26] [Server thread/INFO]: Loaded 488 advancements
+[15:46:26] [Server thread/INFO]: Preparing start region for level 0
+[15:46:29] [Server thread/INFO]: Preparing spawn area: 0%
+[15:46:30] [Server thread/INFO]: Preparing spawn area: 5%
+[15:46:31] [Server thread/INFO]: Preparing spawn area: 11%
+[15:46:32] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
+[15:46:33] [Server thread/INFO]: Preparing spawn area: 18%
+[15:46:34] [Server thread/INFO]: Preparing spawn area: 24%
+[15:46:35] [Server thread/INFO]: Preparing spawn area: 30%
+[15:46:36] [Server thread/INFO]: Preparing spawn area: 37%
+[15:46:37] [Server thread/INFO]: Preparing spawn area: 44%
+[15:46:38] [Server thread/INFO]: Preparing spawn area: 51%
+[15:46:39] [Server thread/INFO]: Preparing spawn area: 58%
+[15:46:40] [Server thread/INFO]: Preparing spawn area: 61%
+[15:46:41] [Server thread/INFO]: Preparing spawn area: 68%
+[15:46:42] [Server thread/INFO]: Preparing spawn area: 76%
+[15:46:42] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[15:46:43] [Server thread/INFO]: Preparing spawn area: 83%
+[15:46:43] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[15:46:43] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
+[15:46:44] [Server thread/INFO]: Preparing spawn area: 90%
+[15:46:45] [Server thread/INFO]: Preparing spawn area: 97%
+[15:46:45] [Server thread/INFO]: Done (20.680s)! For help, type "help" or "?"
+[15:46:51] [User Authenticator #1/INFO]: UUID of player Pasta_Shock is 8cbc443f-3099-4b85-bd98-82849824c87c
+[15:46:51] [Server thread/INFO]: Pasta_Shock[/73.169.215.156:59653] logged in with entity id 355 at (-103.14783442781062, 81.0, 168.59894913763765)
+[15:46:51] [Server thread/INFO]: Pasta_Shock joined the game
+[15:46:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10039ms behind, skipping 200 tick(s)
+[15:47:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 21563ms behind, skipping 431 tick(s)
+[15:47:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6174ms behind, skipping 123 tick(s)
+[15:48:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 43711ms behind, skipping 874 tick(s)
+[15:48:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8385ms behind, skipping 167 tick(s)
+[15:49:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 23557ms behind, skipping 471 tick(s)
+[15:49:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3339ms behind, skipping 66 tick(s)
+[15:49:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3592ms behind, skipping 71 tick(s)
+[15:49:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3170ms behind, skipping 63 tick(s)
+[15:50:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 21991ms behind, skipping 439 tick(s)
+[15:50:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9201ms behind, skipping 184 tick(s)
+[15:51:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 36221ms behind, skipping 724 tick(s)
+[15:51:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8162ms behind, skipping 163 tick(s)
+[15:52:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 35197ms behind, skipping 703 tick(s)
+[15:52:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8414ms behind, skipping 168 tick(s)
+[15:53:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 54400ms behind, skipping 1088 tick(s)
+[15:53:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8206ms behind, skipping 164 tick(s)
+[15:54:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 48573ms behind, skipping 971 tick(s)
+[15:54:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8587ms behind, skipping 171 tick(s)
+[15:56:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 52672ms behind, skipping 1053 tick(s)
+[15:56:07] [Server thread/WARN]: Pasta_Shock moved too quickly! -9.608005797390959,0.2468000194787976,-2.98138989674743
+[15:56:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7964ms behind, skipping 159 tick(s)
+[15:56:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3854ms behind, skipping 77 tick(s)
+[15:56:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5799ms behind, skipping 115 tick(s)
+[15:56:48] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[15:56:55] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[15:56:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5636ms behind, skipping 112 tick(s)
+[15:57:22] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[15:57:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9204ms behind, skipping 184 tick(s)
+[15:57:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2621ms behind, skipping 52 tick(s)
+[15:58:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2514ms behind, skipping 50 tick(s)
+[15:59:08] [Server thread/INFO]: Pasta_Shock lost connection: Disconnected
+[15:59:08] [Server thread/INFO]: Pasta_Shock left the game
+[15:59:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2657ms behind, skipping 53 tick(s)
