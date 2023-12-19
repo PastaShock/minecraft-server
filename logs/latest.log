@@ -1,18 +1,7 @@
-[00:37:51] [Server thread/INFO]: Loading properties
-[00:37:51] [Server thread/INFO]: Default game type: SURVIVAL
-[00:37:51] [Server thread/INFO]: Generating keypair
-[00:37:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:37:51] [Server thread/INFO]: Using epoll channel type
-[00:37:51] [Server thread/INFO]: Preparing level "world"
-[00:37:51] [Server thread/INFO]: Loaded 488 advancements
-[00:37:51] [Server thread/INFO]: Preparing start region for level 0
-[00:37:52] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
-[00:37:52] [Server thread/INFO]: Preparing spawn area: 22%
-[00:37:53] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[00:37:53] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[00:37:53] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[00:37:53] [Server thread/INFO]: Preparing spawn area: 94%
-[00:37:54] [Server thread/INFO]: Done (2.448s)! For help, type "help" or "?"
-[00:40:16] [Server Shutdown Thread/INFO]: Stopping server
-[00:40:16] [Server Shutdown Thread/INFO]: Saving players
-[00:40:16] [Server Shutdown Thread/INFO]: Saving worlds
+[00:35:55] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[00:36:40] [Server Shutdown Thread/INFO]: Stopping server
+[00:36:40] [Server Shutdown Thread/INFO]: Saving players
+[00:36:40] [Server Shutdown Thread/INFO]: Saving worlds
+[00:36:40] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
+[00:36:40] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_nether
+[00:36:40] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_end
