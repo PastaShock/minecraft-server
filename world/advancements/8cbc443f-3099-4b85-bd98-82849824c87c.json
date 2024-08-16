@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2023-12-19 06:42:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2023-12-03 06:56:19 +0000"
@@ -308,9 +314,13 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2023-12-04 22:30:40 +0000",
+      "baked_potato": "2023-12-19 06:50:29 +0000",
       "cooked_cod": "2023-12-07 21:12:25 +0000",
       "raw_salmon": "2023-12-07 22:03:02 +0000",
-      "cooked_chicken": "2023-12-09 05:50:53 +0000"
+      "bread": "2023-12-19 06:42:47 +0000",
+      "rotten_flesh": "2023-12-19 01:13:57 +0000",
+      "cooked_chicken": "2023-12-09 05:50:53 +0000",
+      "carrot": "2024-08-15 04:50:59 +0000"
     },
     "done": false
   },
@@ -395,6 +405,12 @@
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_at_least_9_wheat": "2023-12-08 20:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2023-12-19 06:42:24 +0000"
     },
     "done": true
   },
@@ -552,6 +568,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2023-12-19 06:27:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2023-12-07 21:03:51 +0000"
@@ -609,6 +631,12 @@
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2023-12-09 07:44:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stonebrick": "2023-12-19 06:14:02 +0000"
     },
     "done": true
   },
@@ -687,6 +715,12 @@
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-12-04 23:09:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2023-12-19 06:42:24 +0000"
     },
     "done": true
   },
@@ -882,9 +916,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stonebrick": "2023-12-19 06:14:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2023-12-09 05:53:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2023-12-19 01:11:11 +0000"
     },
     "done": true
   },
@@ -993,6 +1039,12 @@
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2023-12-07 21:11:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2023-12-19 00:58:29 +0000"
     },
     "done": true
   },
@@ -1122,6 +1174,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_log": "2023-12-19 06:55:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2023-12-04 22:56:32 +0000"
@@ -1137,6 +1195,12 @@
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2023-12-07 21:08:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2023-12-19 06:43:19 +0000"
     },
     "done": true
   },
@@ -1224,6 +1288,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2023-12-19 06:42:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2023-12-09 07:44:51 +0000"
@@ -1257,12 +1327,15 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2023-12-07 23:41:31 +0000",
+      "birch_forest": "2023-12-19 06:43:07 +0000",
       "extreme_hills_with_trees": "2023-12-03 06:51:20 +0000",
       "forest_hills": "2023-12-07 23:44:43 +0000",
       "plains": "2023-12-03 06:19:06 +0000",
+      "jungle_edge": "2023-12-19 06:54:23 +0000",
       "extreme_hills": "2023-12-03 06:47:37 +0000",
       "roofed_forest": "2023-12-18 18:33:19 +0000",
-      "river": "2023-12-03 06:46:54 +0000"
+      "river": "2023-12-03 06:46:54 +0000",
+      "jungle": "2023-12-19 06:54:33 +0000"
     },
     "done": false
   },
@@ -1329,6 +1402,12 @@
   "minecraft:recipes/misc/purple_dye": {
     "criteria": {
       "has_lapis": "2023-12-18 19:49:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2023-12-19 06:42:24 +0000"
     },
     "done": true
   },
@@ -1434,6 +1513,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2023-12-19 06:56:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_the_recipe": "2023-12-18 19:51:59 +0000"
@@ -1497,6 +1582,12 @@
   "minecraft:recipes/redstone/wooden_door": {
     "criteria": {
       "has_planks": "2023-12-03 06:56:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stonebrick": {
+    "criteria": {
+      "has_stonebrick": "2023-12-19 06:14:02 +0000"
     },
     "done": true
   },

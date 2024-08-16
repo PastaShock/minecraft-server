@@ -1,7 +1,71 @@
-[00:35:55] [Server thread/INFO]: Unknown command. Try /help for a list of commands
-[00:36:40] [Server Shutdown Thread/INFO]: Stopping server
-[00:36:40] [Server Shutdown Thread/INFO]: Saving players
-[00:36:40] [Server Shutdown Thread/INFO]: Saving worlds
-[00:36:40] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
-[00:36:40] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_nether
-[00:36:40] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_end
+[04:38:27] [Server thread/INFO]: Loading properties
+[04:38:27] [Server thread/INFO]: Default game type: SURVIVAL
+[04:38:27] [Server thread/INFO]: Generating keypair
+[04:38:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:38:27] [Server thread/INFO]: Using epoll channel type
+[04:38:27] [Server thread/INFO]: Preparing level "world"
+[04:38:27] [Server thread/ERROR]: Exception reading ./world/level.dat
+java.io.EOFException: null
+	at java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:268) ~[?:?]
+	at java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:258) ~[?:?]
+	at java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:164) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:79) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91) ~[?:?]
+	at gi.a(SourceFile:25) ~[minecraft_server.1.12.jar:?]
+	at bfa.a(SourceFile:83) [minecraft_server.1.12.jar:?]
+	at bfa.c(SourceFile:67) [minecraft_server.1.12.jar:?]
+	at bex.b(SourceFile:96) [minecraft_server.1.12.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:195) [minecraft_server.1.12.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:238) [minecraft_server.1.12.jar:?]
+	at nx.j(SourceFile:230) [minecraft_server.1.12.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:434) [minecraft_server.1.12.jar:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[04:38:27] [Server thread/ERROR]: Exception reading ./world/level.dat
+java.io.EOFException: null
+	at java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:268) ~[?:?]
+	at java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:258) ~[?:?]
+	at java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:164) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:79) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91) ~[?:?]
+	at gi.a(SourceFile:25) ~[minecraft_server.1.12.jar:?]
+	at bfa.a(SourceFile:83) [minecraft_server.1.12.jar:?]
+	at bez.d(SourceFile:100) [minecraft_server.1.12.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:248) [minecraft_server.1.12.jar:?]
+	at nx.j(SourceFile:230) [minecraft_server.1.12.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:434) [minecraft_server.1.12.jar:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[04:38:28] [Server thread/INFO]: Loaded 488 advancements
+[04:38:28] [Server thread/INFO]: Preparing start region for level 0
+[04:38:28] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
+[04:38:29] [Server thread/INFO]: Preparing spawn area: 22%
+[04:38:29] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:38:29] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:38:29] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
+[04:38:30] [Server thread/INFO]: Preparing spawn area: 98%
+[04:38:30] [Server thread/INFO]: Done (2.403s)! For help, type "help" or "?"
+[04:39:18] [User Authenticator #1/INFO]: UUID of player Pasta_Shock is 8cbc443f-3099-4b85-bd98-82849824c87c
+[04:39:18] [Server thread/INFO]: Pasta_Shock[/192.168.10.10:63901] logged in with entity id 279 at (0.27964434908026475, 64.0, -10.555398315406661)
+[04:39:18] [Server thread/INFO]: Pasta_Shock joined the game
+[04:39:19] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:39:19] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:43:36] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
+[04:44:11] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:46:51] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
+[04:48:06] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
+[04:48:40] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
+[04:48:49] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
+[04:49:59] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:49:59] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:52:33] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
+[04:53:01] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
+[04:53:13] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:53:13] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:53:26] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:53:36] [Server thread/INFO]: Pasta_Shock lost connection: Disconnected
+[04:53:36] [Server thread/INFO]: Pasta_Shock left the game
+[04:56:35] [User Authenticator #2/INFO]: UUID of player Pasta_Shock is 8cbc443f-3099-4b85-bd98-82849824c87c
+[04:56:35] [Server thread/INFO]: Pasta_Shock[/192.168.10.10:51010] logged in with entity id 19981 at (-162.738554357282, 63.0, 222.64231607260578)
+[04:56:35] [Server thread/INFO]: Pasta_Shock joined the game
+[04:56:35] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
+[04:57:03] [Server thread/INFO]: Pasta_Shock lost connection: Disconnected
+[04:57:03] [Server thread/INFO]: Pasta_Shock left the game
