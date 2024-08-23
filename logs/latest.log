@@ -1,118 +1,16 @@
-[00:11:15] [User Authenticator #2/INFO]: UUID of player Pasta_Shock is 8cbc443f-3099-4b85-bd98-82849824c87c
-[00:11:15] [Server thread/INFO]: Pasta_Shock[/192.168.10.10:61865] logged in with entity id 22391 at (-161.17776392563428, 63.0, 223.41609821226243)
-[00:11:15] [Server thread/INFO]: Pasta_Shock joined the game
-[00:11:15] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[00:11:47] [Server thread/INFO]: Pasta_Shock lost connection: Disconnected
-[00:11:47] [Server thread/INFO]: Pasta_Shock left the game
-[00:36:03] [User Authenticator #3/INFO]: UUID of player Pasta_Shock is 8cbc443f-3099-4b85-bd98-82849824c87c
-[00:36:03] [Server thread/INFO]: Pasta_Shock[/192.168.10.10:50171] logged in with entity id 22792 at (-147.15647217808956, 63.0, 227.1354918233657)
-[00:36:03] [Server thread/INFO]: Pasta_Shock joined the game
-[00:36:04] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[00:37:09] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
-[00:37:43] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[00:38:05] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[00:38:39] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[00:38:39] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[00:38:39] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[00:39:03] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[00:39:06] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[00:39:21] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
-[00:40:06] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
-[00:46:04] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[00:46:04] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[00:47:31] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[00:47:31] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:00:03] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:02:42] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:02:57] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:04:15] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:04:15] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:08:37] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:08:37] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:10:45] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:10:45] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:13:09] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:13:09] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:15:18] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:15:39] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:15:39] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:17:54] [Server thread/INFO]: Pasta_Shock has made the advancement [Take Aim]
-[01:19:04] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:19:04] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:22:00] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:22:59] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:24:46] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:26:58] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:28:16] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:28:16] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:28:58] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:31:51] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:36:12] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:36:33] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:38:11] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:40:33] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:41:32] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:42:47] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[01:45:02] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[02:05:10] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[02:05:10] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[02:58:51] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[02:58:51] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[02:59:48] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[02:59:48] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:03:26] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:03:26] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:03:44] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:06:33] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:06:33] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:07:38] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:07:38] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:08:39] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:08:39] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:09:07] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:09:07] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:19:12] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:19:54] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:29:28] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:29:28] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:30:12] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:33:55] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:36:50] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:36:50] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:37:37] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:39:47] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:40:16] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:41:32] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:42:04] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:43:13] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:45:39] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:45:39] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:50:05] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:50:05] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:53:36] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[03:53:36] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:00:45] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
-[04:01:08] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:01:08] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:01:08] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[04:01:57] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:11:04] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:11:04] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:11:53] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
-[04:14:26] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[04:19:35] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:19:35] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:21:41] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:21:41] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:44:16] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:44:16] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:48:36] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:48:36] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:54:54] [Server thread/INFO]: Pasta_Shock lost connection: Disconnected
-[04:54:54] [Server thread/INFO]: Pasta_Shock left the game
-[04:55:19] [Server Shutdown Thread/INFO]: Stopping server
-[04:55:19] [Server Shutdown Thread/INFO]: Saving players
-[04:55:19] [Server Shutdown Thread/INFO]: Saving worlds
-[04:55:19] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
-[04:55:20] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_nether
-[04:55:20] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_end
+[04:57:55] [Server thread/INFO]: Starting minecraft server version 1.12
+[04:57:55] [Server thread/INFO]: Loading properties
+[04:57:55] [Server thread/INFO]: Default game type: SURVIVAL
+[04:57:55] [Server thread/INFO]: Generating keypair
+[04:57:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:57:56] [Server thread/INFO]: Using epoll channel type
+[04:57:56] [Server thread/INFO]: Preparing level "world"
+[04:57:56] [Server thread/INFO]: Loaded 488 advancements
+[04:57:56] [Server thread/INFO]: Preparing start region for level 0
+[04:57:57] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
+[04:57:57] [Server thread/INFO]: Preparing spawn area: 21%
+[04:57:58] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:57:58] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
+[04:57:58] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
+[04:57:58] [Server thread/INFO]: Preparing spawn area: 96%
+[04:57:58] [Server thread/INFO]: Done (2.441s)! For help, type "help" or "?"
