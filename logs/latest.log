@@ -1,16 +1,1 @@
-[04:57:55] [Server thread/INFO]: Starting minecraft server version 1.12
-[04:57:55] [Server thread/INFO]: Loading properties
-[04:57:55] [Server thread/INFO]: Default game type: SURVIVAL
-[04:57:55] [Server thread/INFO]: Generating keypair
-[04:57:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:57:56] [Server thread/INFO]: Using epoll channel type
-[04:57:56] [Server thread/INFO]: Preparing level "world"
-[04:57:56] [Server thread/INFO]: Loaded 488 advancements
-[04:57:56] [Server thread/INFO]: Preparing start region for level 0
-[04:57:57] [Server thread/WARN]: Keeping entity minecraft:sheep that already exists with UUID bd713779-cb90-4c27-81b3-9d9c56b2808c
-[04:57:57] [Server thread/INFO]: Preparing spawn area: 21%
-[04:57:58] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:57:58] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID b23c74c0-4b5a-4bdf-bddf-06597e276403
-[04:57:58] [Server thread/WARN]: Keeping entity minecraft:pig that already exists with UUID c56f7640-c503-4a05-b79a-b19557ff1d7a
-[04:57:58] [Server thread/INFO]: Preparing spawn area: 96%
-[04:57:58] [Server thread/INFO]: Done (2.441s)! For help, type "help" or "?"
+[14:29:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@18553d72[id=<null>,name=Cornbread2100_,properties={},legacy=false] (/154.213.187.63:40864) lost connection: Disconnected
