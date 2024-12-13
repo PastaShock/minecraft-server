@@ -1,1 +1,83 @@
-[14:29:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@18553d72[id=<null>,name=Cornbread2100_,properties={},legacy=false] (/154.213.187.63:40864) lost connection: Disconnected
+[01:08:26] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[01:08:29] [Server thread/INFO]: --- Showing help page 1 of 10 (/help <page>) ---
+[01:08:29] [Server thread/INFO]: /advancement <grant|revoke|test> <player>
+[01:08:29] [Server thread/INFO]: /ban <name> [reason ...]
+[01:08:29] [Server thread/INFO]: /ban-ip <address|name> [reason ...]
+[01:08:29] [Server thread/INFO]: /banlist [ips|players]
+[01:08:29] [Server thread/INFO]: /blockdata <x> <y> <z> <dataTag>
+[01:08:29] [Server thread/INFO]: /clear [player] [item] [data] [maxCount] [dataTag]
+[01:08:29] [Server thread/INFO]: /clone <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [maskMode] [cloneMode]
+[01:08:29] [Server thread/INFO]: Tip: Use the <tab> key while typing a command to auto-complete the command or its arguments
+[01:08:54] [Server thread/INFO]: --- Showing help page 2 of 10 (/help <page>) ---
+[01:08:54] [Server thread/INFO]: /debug <start|stop>
+[01:08:54] [Server thread/INFO]: /defaultgamemode <mode>
+[01:08:54] [Server thread/INFO]: /deop <player>
+[01:08:54] [Server thread/INFO]: /difficulty <new difficulty>
+[01:08:54] [Server thread/INFO]: /effect <player> <effect> [seconds] [amplifier] [hideParticles] OR /effect <player> clear
+[01:08:54] [Server thread/INFO]: /enchant <player> <enchantment ID> [level]
+[01:08:54] [Server thread/INFO]: /entitydata <entity> <dataTag>
+[01:09:04] [Server thread/INFO]: --- Showing help page 3 of 10 (/help <page>) ---
+[01:09:04] [Server thread/INFO]: /execute <entity> <x> <y> <z> <command> OR /execute <entity> <x> <y> <z> detect <x> <y> <z> <block> <dataValue|-1|state|*> <command>
+[01:09:04] [Server thread/INFO]: /fill <x1> <y1> <z1> <x2> <y2> <z2> <block> [dataValue|state] [oldBlockHandling] [dataTag]
+[01:09:04] [Server thread/INFO]: /function <name> [if <selector>|unless <selector>]
+[01:09:04] [Server thread/INFO]: /gamemode <mode> [player]
+[01:09:04] [Server thread/INFO]: /gamerule <rule name> [value]
+[01:09:04] [Server thread/INFO]: /give <player> <item> [amount] [data] [dataTag]
+[01:09:04] [Server thread/INFO]: /help [page|command name]
+[01:12:26] [Server thread/INFO]: --- Showing help page 4 of 10 (/help <page>) ---
+[01:12:26] [Server thread/INFO]: /kick <player> [reason ...]
+[01:12:26] [Server thread/INFO]: /kill [player|entity]
+[01:12:26] [Server thread/INFO]: /list
+[01:12:26] [Server thread/INFO]: /locate <feature>
+[01:12:26] [Server thread/INFO]: /me <action ...>
+[01:12:26] [Server thread/INFO]: /op <player>
+[01:12:26] [Server thread/INFO]: /pardon <name>
+[01:12:30] [Server thread/INFO]: --- Showing help page 5 of 10 (/help <page>) ---
+[01:12:30] [Server thread/INFO]: /pardon-ip <address>
+[01:12:30] [Server thread/INFO]: /particle <name> <x> <y> <z> <xd> <yd> <zd> <speed> [count] [mode] [player] [params]
+[01:12:30] [Server thread/INFO]: /playsound <sound> <source> <player> [x] [y] [z] [volume] [pitch] [minimumVolume]
+[01:12:30] [Server thread/INFO]: /recipe <give|take> [player] <name|*>
+[01:12:30] [Server thread/INFO]: /reload
+[01:12:30] [Server thread/INFO]: /replaceitem <entity|block> ...
+[01:12:30] [Server thread/INFO]: /save-all [flush]
+[01:12:36] [Server thread/INFO]: --- Showing help page 6 of 10 (/help <page>) ---
+[01:12:36] [Server thread/INFO]: /save-off
+[01:12:36] [Server thread/INFO]: /save-on
+[01:12:36] [Server thread/INFO]: /say <message ...>
+[01:12:36] [Server thread/INFO]: /scoreboard <objectives|players|teams> ...
+[01:12:36] [Server thread/INFO]: /seed
+[01:12:36] [Server thread/INFO]: /setblock <x> <y> <z> <block> [dataValue|state] [oldBlockHandling] [dataTag]
+[01:12:36] [Server thread/INFO]: /setidletimeout <minutes>
+[01:12:40] [Server thread/INFO]: --- Showing help page 7 of 10 (/help <page>) ---
+[01:12:40] [Server thread/INFO]: /setworldspawn [<x> <y> <z>]
+[01:12:40] [Server thread/INFO]: /spawnpoint [player] [<x> <y> <z>]
+[01:12:40] [Server thread/INFO]: /spreadplayers <x> <z> <spreadDistance> <maxRange> <respectTeams true|false> <player ...>
+[01:12:40] [Server thread/INFO]: /stats <entity|block> ...
+[01:12:40] [Server thread/INFO]: /stop
+[01:12:40] [Server thread/INFO]: /stopsound <player> [source] [sound]
+[01:12:40] [Server thread/INFO]: /summon <entityname> [x] [y] [z] [dataTag]
+[01:12:43] [Server thread/INFO]: --- Showing help page 8 of 10 (/help <page>) ---
+[01:12:43] [Server thread/INFO]: /teleport <entity> <x> <y> <z> [<y-rot> <x-rot>]
+[01:12:43] [Server thread/INFO]: /tell <player> <private message ...>
+[01:12:43] [Server thread/INFO]: /tellraw <player> <raw json message>
+[01:12:43] [Server thread/INFO]: /testfor <player> [dataTag]
+[01:12:43] [Server thread/INFO]: /testforblock <x> <y> <z> <block> [dataValue|-1|state|*] [dataTag]
+[01:12:43] [Server thread/INFO]: /testforblocks <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [mode]
+[01:12:43] [Server thread/INFO]: /time <set|add|query> <value>
+[01:12:49] [Server thread/INFO]: --- Showing help page 9 of 10 (/help <page>) ---
+[01:12:49] [Server thread/INFO]: /title <player> title|subtitle|actionbar|clear|reset|times ...
+[01:12:49] [Server thread/INFO]: /toggledownfall
+[01:12:49] [Server thread/INFO]: /tp [target player] <destination player> OR /tp [target player] <x> <y> <z> [<yaw> <pitch>]
+[01:12:49] [Server thread/INFO]: /trigger <objective> <add|set> <value>
+[01:12:49] [Server thread/INFO]: /weather <clear|rain|thunder> [duration in seconds]
+[01:12:49] [Server thread/INFO]: /whitelist <on|off|list|add|remove|reload>
+[01:12:49] [Server thread/INFO]: /worldborder <set|center|damage|warning|get|add> ...
+[01:12:55] [Server thread/INFO]: --- Showing help page 10 of 10 (/help <page>) ---
+[01:12:55] [Server thread/INFO]: /xp <amount> [player] OR /xp <amount>L [player]
+[01:13:06] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[01:13:08] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[01:13:15] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[01:13:18] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[01:13:20] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[01:13:23] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[01:13:26] [Server Shutdown Thread/INFO]: Stopping server
